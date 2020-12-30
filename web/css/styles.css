@@ -257,6 +257,66 @@ strong {
 	cursor: text;
 	transition: all 0.2s ease;
 }
+.b2{
+	border: 2px solid blue;
+}
+.our-services{
+	position: relative;
+	height: 450px;
+	overflow: hidden;
+	width: 100%;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.our-services .bg-service{
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.our-services .container{
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+.our-services .services-content{
+	display: flex;
+	flex-direction: column;
+}
+.our-services.item-1 .services-content{
+	align-items: flex-start;
+	text-align: left;
+}
+.our-services.item-2 .services-content{
+	align-items: flex-end;
+	text-align:right;
+}
+/*.our-services.item-1 .container{
+	align-items: flex-start;
+}
+.our-services.item-2 .container{
+	align-items: flex-end;
+}
+
+*/
+.our-services p{
+	width: 300px;
+}
+.filter-bg-services{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.our-services.item-1 .bg-service{
+	background-image: url('../images/zastravka-arkhitektura.jpg');
+}
+.our-services.item-2 .bg-service{
+	background-image: url('../images/zastravka-interior_3.jpg');
+}
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
@@ -1618,6 +1678,14 @@ input[type='checkbox'] {
 	margin-bottom: 0.75rem;
 }
 
+.counter #counter .cell-2{
+	width: 9.5rem;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
 .counter #counter .counter-value {
 	display: inline-block;
 	margin-bottom: 0.125rem;
@@ -1838,6 +1906,14 @@ a:hover.back-to-top {
 	margin-top: 1.75rem;
 }
 
+@media only screen and (max-width: 768px) {
+
+  .our-services.item-1 .services-content,
+  .our-services.item-2 .services-content{
+	align-items: center;
+	text-align: center;
+   }
+}
 
 /*****************************/
 /*     21. Media Queries     */
@@ -2020,6 +2096,8 @@ a:hover.back-to-top {
 		margin-top: 0.5rem;
 	}
 	/* end of extra pages */
+
+	
 }
 /* end of min-width width 768px */
 
@@ -2109,6 +2187,14 @@ a:hover.back-to-top {
 	}
 	/* end of description */
 
+	/* GROWTH*/
+	.growth{
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		flex-wrap: wrap;
+	}
+	/* GROWTH*/
 
 	/* Services */
 	.cards-2 .card {

@@ -12,13 +12,13 @@ $this->title = 'My Yii Application';
 <div data-spy="scroll" data-target=".fixed-top">
     
     <!-- Preloader -->
-    <div class="spinner-wrapper">
+  <!--   <div class="spinner-wrapper">
         <div class="spinner">
             <div class="bounce1"></div>
             <div class="bounce2"></div>
             <div class="bounce3"></div>
         </div>
-    </div>
+    </div> -->
     <!-- end of preloader -->
     
 
@@ -109,7 +109,7 @@ $this->title = 'My Yii Application';
 
 
     <!-- Intro -->
-    <div id="intro" class="basic-1">
+    <div style="display: block;" id="intro" class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -133,7 +133,7 @@ $this->title = 'My Yii Application';
 
 
     <!-- Description -->
-    <div class="cards-1">
+    <div style="display: none;" class="cards-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -185,7 +185,7 @@ $this->title = 'My Yii Application';
 
 
     <!-- Services -->
-    <div id="services" class="cards-2">
+    <div style="display: none;" id="services" class="cards-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -282,7 +282,7 @@ $this->title = 'My Yii Application';
     
 
     <!-- Details 1 -->
-    <div id="details" class="accordion">
+    <div style="display: none;" id="details" class="accordion">
         <div class="area-1">
         </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
             
@@ -336,7 +336,7 @@ $this->title = 'My Yii Application';
 
 
     <!-- Details 2 -->
-    <div class="tabs">
+    <div style="display: none;" class="tabs">
         <div class="area-1">
             <div class="tabs-container">
                 
@@ -454,7 +454,7 @@ $this->title = 'My Yii Application';
 
 
     <!-- Testimonials -->
-    <div class="slider">
+    <div style="display: none;" class="slider">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -561,7 +561,7 @@ $this->title = 'My Yii Application';
 
 
     <!-- Call Me -->
-    <div id="callMe" class="form-1">
+    <div style="display: none;" id="callMe" class="form-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -632,6 +632,177 @@ $this->title = 'My Yii Application';
     </div> <!-- end of form-1 -->
     <!-- end of call me -->
 
+   <div id="counter" class="basic-2 counter" style="padding-bottom: 50px;">
+       <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <h2>Some Fun Facts about our agency?</h2>
+                </div>
+            </div>
+          <div class="row">  
+            <div class="col-lg-12 growth" id="counter">
+                <div class="cell-2">
+                    <div class="counter-value number-count" data-count="10">1</div>
+                    <div class="counter-info">РОКІВ НА РИНКУ</div>
+                </div>
+                <div class="cell-2">
+                    <div class="counter-value number-count" data-count="620">1</div>
+                    <div class="counter-info">ПРОЕКТІВ</div>
+                </div>
+                <div class="cell-2">
+                    <div class="counter-value number-count" data-count="540">1</div>
+                    <div class="counter-info">РЕАЛІЗОВАНО</div>
+                </div>
+            </div>
+          </div>
+       </div>
+    </div>
+
+
+    <div>
+         <h2 class="text-center mt-5">Наші послуги</h2>
+         
+             <div class="our-services row item-1 mt-3">
+                <div class="bg-service"></div>
+                <div class="filter-bg-services">
+                    <div class="container ">
+                        <div class="services-content">
+                             <h3 class="text-white">Архітектура</h3>
+                             <p class="mt-2 text-white">Концептуальний проект Робочий проект</p>
+                              <a class="mt-2 btn-solid-lg page-scroll" href="#intro">Переглянути</a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         
+         <div class="our-services row item-2 mt-5">
+            <div class="bg-service"></div>
+            <div class="filter-bg-services">
+                 <div class="container">
+                    <div class="services-content">
+                         <h3 class="text-white">ІНТЕР’ЄР</h3>
+                         <p class="mt-2 text-white">Інтер’єр житлових будинків та квартир
+    Інтер’єр громадських та комерційних приміщень
+    Авторський нагляд під час виконання</p>
+                          <a class="mt-2 btn-solid-lg page-scroll" href="#intro">Переглянути</a>
+                    </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+        <!-- Team -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Our Team Of Consultants</h2>
+                    <p class="p-heading">We're only as strong and as knowledgeable as our team. So here are the men and women which help customers meet goals and grow companies</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="../../images/team-1.png" alt="alternative">
+                        </div> <!-- end of image-wrapper -->
+                        <p class="p-large">John Whitelong</p>
+                        <p class="job-title">General Manager</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="../../images/team-2.png" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Veronique Smith</p>
+                        <p class="job-title">Business Developer</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="../../images/team-3.png" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Chris Zimerman</p>
+                        <p class="job-title">Online Marketer</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="../../images/team-4.png" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Mary Villalonga</p>
+                        <p class="job-title">Community Manager</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of team -->
 
     <!-- Projects -->
     <div id="projects" class="filter">
@@ -849,6 +1020,8 @@ $this->title = 'My Yii Application';
     </div> <!-- end of lightbox-basic -->
     <!-- end of lightbox -->
 
+
+
     <!-- Lightbox -->
     <div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
         <div class="row">
@@ -874,119 +1047,7 @@ $this->title = 'My Yii Application';
     <!-- end of project lightboxes -->
 
 
-    <!-- Team -->
-    <div class="basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Our Team Of Consultants</h2>
-                    <p class="p-heading">We're only as strong and as knowledgeable as our team. So here are the men and women which help customers meet goals and grow companies</p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
 
-                    <!-- Team Member -->
-                    <div class="team-member">
-                        <div class="image-wrapper">
-                            <img class="img-fluid" src="../../images/team-1.png" alt="alternative">
-                        </div> <!-- end of image-wrapper -->
-                        <p class="p-large">John Whitelong</p>
-                        <p class="job-title">General Manager</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                        </span>
-                    </div> <!-- end of team-member -->
-                    <!-- end of team member -->
-
-                    <!-- Team Member -->
-                    <div class="team-member">
-                        <div class="image-wrapper">
-                            <img class="img-fluid" src="../../images/team-2.png" alt="alternative">
-                        </div> <!-- end of image wrapper -->
-                        <p class="p-large">Veronique Smith</p>
-                        <p class="job-title">Business Developer</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                        </span>
-                    </div> <!-- end of team-member -->
-                    <!-- end of team member -->
-
-                    <!-- Team Member -->
-                    <div class="team-member">
-                        <div class="image-wrapper">
-                            <img class="img-fluid" src="../../images/team-3.png" alt="alternative">
-                        </div> <!-- end of image wrapper -->
-                        <p class="p-large">Chris Zimerman</p>
-                        <p class="job-title">Online Marketer</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                        </span>
-                    </div> <!-- end of team-member -->
-                    <!-- end of team member -->
-
-                    <!-- Team Member -->
-                    <div class="team-member">
-                        <div class="image-wrapper">
-                            <img class="img-fluid" src="../../images/team-4.png" alt="alternative">
-                        </div> <!-- end of image wrapper -->
-                        <p class="p-large">Mary Villalonga</p>
-                        <p class="job-title">Community Manager</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                        </span>
-                    </div> <!-- end of team-member -->
-                    <!-- end of team member -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of team -->
 
 
     <!-- About -->
