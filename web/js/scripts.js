@@ -10,6 +10,7 @@
 	
 	/* Preloader */
 	$(window).on('load', function() {
+
 		var preloaderFadeOutTime = 500;
 		function hidePreloader() {
 			var preloader = $('.spinner-wrapper');
@@ -24,33 +25,39 @@
 	/* Navbar Scripts */
 	// jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
-		if ($(".navbar").offset().top > 20) {
-			$(".fixed-top").addClass("top-nav-collapse");
-		} else {
-			$(".fixed-top").removeClass("top-nav-collapse");
-		}
+        if(window.location.pathname == '/'){
+            console.log(window.location.pathname == '/')
+           // $('.navbar').addClass('.fixed')
+            
+        }else{
+            $('.navbar-custom').addClass('dark-text-color')
+        }
+
+        if ($(".navbar").offset().top > 20) {
+            $(".fixed-top").addClass("top-nav-collapse");
+        } else {
+            $(".fixed-top").removeClass("top-nav-collapse");
+        }
+		
         var scroll = $(document).scrollTop()
         $(".bg-service").each(function() {
             var top_of_element = $(this).offset().top;
             var bottom_of_element = $(this).offset().top + $(this).outerHeight();
             var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
             var top_of_screen = $(window).scrollTop();
-     /*       var offset_top =$(this).offset().top;
-            var el_height =$(this).offset().top;
-            var outerH =$(this).outerHeight();
-            var p = (top_of_screen - offset_top + el_height) / outerH * 100
-                console.log(p)*/
-            if ((bottom_of_screen > top_of_element) && (scroll < bottom_of_element)){
-                // the element is visible, do something
-                var pixs = (top_of_element-scroll-200) / 100;
-                if(pixs < 7){
+            var speed = 1;
+            if ((bottom_of_screen > top_of_element)){
+                var pixs = ((top_of_element-scroll-200) / 100) * speed;
+                //console.log(pixs)
+                if(pixs < 10){
                     $(this).css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })
                 }
             }
 
-            if(top_of_element < scroll){
-                var pixs = ((scroll-top_of_element) / 100);
-                if(pixs < 7){
+            if(top_of_element-400 < scroll){
+                var pixs = ((scroll-top_of_element) / 100) * speed;
+                console.log(pixs)
+                if(pixs < 10){
                     $(this).css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })
                 }
             }
@@ -135,7 +142,17 @@
     var $grid = $('.grid').isotope({
         // options
         itemSelector: '.element-item',
-        layoutMode: 'fitRows'
+       // layoutMode: 'fitRows',
+        layoutMode: 'masonry',
+        masonry: { 
+          isFitWidth: true 
+        }
+    });
+    AOS.init({
+        disable: 'mobile',
+      useClassNames: true,
+      initClassName: false,
+      duration:400
     });
     
     // filter items on button click

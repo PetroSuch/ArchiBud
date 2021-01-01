@@ -2,103 +2,22 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Про нас';
 ?>
-<!-- 
-     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
- -->
-
-<div data-spy="scroll" data-target=".fixed-top">
-    
-    <!-- Preloader -->
-  <!--   <div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div> -->
-    <!-- end of preloader -->
-    
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
-
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="../../images/logo.svg" alt="alternative"></a>
-        
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#intro">INTRO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#services">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#callMe">CALL ME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
-                </li>
-
-                <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
-                    </div>
-                </li>
-                <!-- end of dropdown menu -->
-
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
-                </li>
-            </ul>
-            <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <span class="hexagon"></span>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <span class="hexagon"></span>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-        </div>
-    </nav> <!-- end of navbar -->
-    <!-- end of navbar -->
 
 
-    <!-- Header -->
+<div data-spy="scroll" data-target=".fixed-top">   
+
+       <!-- Header -->
     <header id="header" class="header">
         <div class="header-content">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-container">
-                            <h1>BUSINESS <span id="js-rotating">TEMPLATE, SERVICES, SOLUTIONS</span></h1>
-                            <p class="p-heading p-large">Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics</p>
-                            <a class="btn-solid-lg page-scroll" href="#intro">DISCOVER</a>
+                            <h1 data-aos="zoom-in">BUSINESS <span id="js-rotating">TEMPLATE, SERVICES, SOLUTIONS</span></h1>
+                            <p data-aos="zoom-in" data-aos-delay="200" class="p-heading p-large">Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics</p>
+                            <a data-aos="fade-up" data-aos-delay="500" class="btn-solid-lg page-scroll" href="#intro">DISCOVER</a>
                         </div>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -112,7 +31,7 @@ $this->title = 'My Yii Application';
     <div style="display: block;" id="intro" class="basic-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
                     <div class="text-container">
                         <div class="section-title">INTRO</div>
                         <h2>We Offer Some Of The Best Business Growth Services In Town</h2>
@@ -121,7 +40,7 @@ $this->title = 'My Yii Application';
                         <div class="testimonial-author">Louise Donovan - CEO</div>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
-                <div class="col-lg-7">
+                <div class="col-lg-7"  data-aos="fade-up" data-aos-delay="400">
                     <div class="image-container">
                         <img class="img-fluid" src="../../images/intro-office.jpg" alt="alternative">
                     </div> <!-- end of image-container -->
@@ -139,7 +58,7 @@ $this->title = 'My Yii Application';
                 <div class="col-lg-12">
                     
                     <!-- Card -->
-                    <div class="card">
+                    <div class="card" >
                         <span class="fa-stack">
                             <span class="hexagon"></span>
                             <i class="fas fa-binoculars fa-stack-1x"></i>
@@ -635,21 +554,21 @@ $this->title = 'My Yii Application';
    <div id="counter" class="basic-2 counter" style="padding-bottom: 50px;">
        <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12"  data-aos="zoom-in" data-aos-delay="100">
                   <h2>Some Fun Facts about our agency?</h2>
                 </div>
             </div>
           <div class="row">  
             <div class="col-lg-12 growth" id="counter">
-                <div class="cell-2">
+                <div class="cell-2" data-aos="fade-up" data-aos-delay="400">
                     <div class="counter-value number-count" data-count="10">1</div>
                     <div class="counter-info">РОКІВ НА РИНКУ</div>
                 </div>
-                <div class="cell-2">
+                <div class="cell-2" data-aos="fade-up" data-aos-delay="600">
                     <div class="counter-value number-count" data-count="620">1</div>
                     <div class="counter-info">ПРОЕКТІВ</div>
                 </div>
-                <div class="cell-2">
+                <div class="cell-2" data-aos="fade-up" data-aos-delay="800">
                     <div class="counter-value number-count" data-count="540">1</div>
                     <div class="counter-info">РЕАЛІЗОВАНО</div>
                 </div>
@@ -660,31 +579,31 @@ $this->title = 'My Yii Application';
 
 
     <div>
-         <h2 class="text-center mt-5">Наші послуги</h2>
+         <h2 class="text-center mt-5" data-aos="fade" data-aos-delay="100">Наші послуги</h2>
          
-             <div class="our-services row item-1 mt-3">
-                <div class="bg-service"></div>
-                <div class="filter-bg-services">
+             <div class="our-services item-1 mt-3">
+                <div class="bg-service" data-aos="zoom-in" data-aos-delay="100"></div>
+                <div class="filter-bg-services" data-aos="fade" data-aos-delay="500">
                     <div class="container ">
                         <div class="services-content">
-                             <h3 class="text-white">Архітектура</h3>
-                             <p class="mt-2 text-white">Концептуальний проект Робочий проект</p>
-                              <a class="mt-2 btn-solid-lg page-scroll" href="#intro">Переглянути</a>
+                             <h3 class="text-white" data-aos="fade-left" data-aos-delay="800">Архітектура</h3>
+                             <p class="mt-2 text-white" data-aos="fade-left" data-aos-delay="900">Концептуальний проект Робочий проект</p>
+                              <a class="mt-2 btn-solid-lg page-scroll" href="#intro" data-aos="zoom-in" data-aos-delay="1200">Переглянути</a>
                          </div>
                      </div>
                  </div>
              </div>
          
-         <div class="our-services row item-2 mt-5">
-            <div class="bg-service"></div>
-            <div class="filter-bg-services">
+         <div class="our-services item-2 mt-5">
+            <div class="bg-service" data-aos="zoom-in" data-aos-delay="100"></div>
+            <div class="filter-bg-services" data-aos="fade" data-aos-delay="500">
                  <div class="container">
                     <div class="services-content">
-                         <h3 class="text-white">ІНТЕР’ЄР</h3>
-                         <p class="mt-2 text-white">Інтер’єр житлових будинків та квартир
+                         <h3 class="text-white" data-aos="fade-right" data-aos-delay="800">ІНТЕР’ЄР</h3>
+                         <p class="mt-2 text-white" data-aos="fade-right" data-aos-delay="900">Інтер’єр житлових будинків та квартир
     Інтер’єр громадських та комерційних приміщень
     Авторський нагляд під час виконання</p>
-                          <a class="mt-2 btn-solid-lg page-scroll" href="#intro">Переглянути</a>
+                          <a class="mt-2 btn-solid-lg page-scroll" href="#intro" data-aos="zoom-in" data-aos-delay="1200">Переглянути</a>
                     </div>
                  </div>
              </div>
@@ -695,15 +614,15 @@ $this->title = 'My Yii Application';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Our Team Of Consultants</h2>
-                    <p class="p-heading">We're only as strong and as knowledgeable as our team. So here are the men and women which help customers meet goals and grow companies</p>
+                    <h2 data-aos="fade-down">Our Team Of Consultants</h2>
+                    <p data-aos="fade-down" data-aos-delay="300" class="p-heading">We're only as strong and as knowledgeable as our team. So here are the men and women which help customers meet goals and grow companies</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
 
                     <!-- Team Member -->
-                    <div class="team-member">
+                    <div data-aos="fade-up" data-aos-delay="100" class="team-member">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="../../images/team-1.png" alt="alternative">
                         </div> <!-- end of image-wrapper -->
@@ -727,7 +646,7 @@ $this->title = 'My Yii Application';
                     <!-- end of team member -->
 
                     <!-- Team Member -->
-                    <div class="team-member">
+                    <div data-aos="fade-up" data-aos-delay="200" class="team-member">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="../../images/team-2.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -751,7 +670,7 @@ $this->title = 'My Yii Application';
                     <!-- end of team member -->
 
                     <!-- Team Member -->
-                    <div class="team-member">
+                    <div data-aos="fade-up" data-aos-delay="300" class="team-member">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="../../images/team-3.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -775,7 +694,7 @@ $this->title = 'My Yii Application';
                     <!-- end of team member -->
 
                     <!-- Team Member -->
-                    <div class="team-member">
+                    <div data-aos="fade-up" data-aos-delay="400" class="team-member">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="../../images/team-4.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -809,43 +728,43 @@ $this->title = 'My Yii Application';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="section-title">PROJECTS</div>
-                    <h2>Projects That We're Proud Of</h2>
+                    <div data-aos="fade-down" data-aos-delay="0" class="section-title">PROJECTS</div>
+                    <h2 data-aos="zoom-in" data-aos-delay="100">Projects That We're Proud Of</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
-                        <a class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
-                        <a class="button" data-filter=".design"><span>DESIGN</span></a>
-                        <a class="button" data-filter=".development"><span>DEVELOPMENT</span></a>
-                        <a class="button" data-filter=".marketing"><span>MARKETING</span></a>
-                        <a class="button" data-filter=".seo"><span>SEO</span></a>
+                        <a data-aos="fade-left" data-aos-delay="0" class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
+                        <a data-aos="fade-left" data-aos-delay="200" class="button" data-filter=".design"><span>DESIGN</span></a>
+                        <a data-aos="fade-left" data-aos-delay="300" class="button" data-filter=".development"><span>DEVELOPMENT</span></a>
+                        <a data-aos="fade-left" data-aos-delay="500" class="button" data-filter=".marketing"><span>MARKETING</span></a>
+                        <a data-aos="fade-left" data-aos-delay="700" class="button" data-filter=".seo"><span>SEO</span></a>
                     </div> <!-- end of button group -->
                     <div class="grid">
-                        <div class="element-item development">
+                        <div data-aos="fade" data-aos-delay="10" class="element-item development">
                             <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Online Banking</span></div><img src="../../images/project-1.jpg" alt="alternative"></a>
                         </div>
-                        <div class="element-item development">
+                        <div data-aos="fade" data-aos-delay="100" class="element-item development">
                             <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Classic Industry</span></div><img src="../../images/project-2.jpg" alt="alternative"></a>
                         </div>
-                        <div class="element-item design development marketing">
+                        <div data-aos="fade" data-aos-delay="200" class="element-item design development marketing">
                             <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>BoomBap Audio</span></div><img src="../../images/project-3.jpg" alt="alternative"></a>
                         </div>
-                        <div class="element-item design development marketing">
+                        <div  data-aos="fade" data-aos-delay="300" class="element-item design development marketing">
                             <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Van Moose</span></div><img src="../../images/project-4.jpg" alt="alternative"></a>
                         </div>
-                        <div class="element-item design development marketing seo">
+                        <div  data-aos="fade" data-aos-delay="400" class="element-item design development marketing seo">
                             <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Joy Moments</span></div><img src="../../images/project-5.jpg" alt="alternative"></a>
                         </div>
-                        <div class="element-item design marketing seo">
+                        <div  data-aos="fade" data-aos-delay="500" class="element-item design marketing seo">
                             <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>Spark Events</span></div><img src="../../images/project-6.jpg" alt="alternative"></a>
                         </div>
-                        <div class="element-item design marketing">
+                        <div  data-aos="fade" data-aos-delay="600" class="element-item design marketing">
                             <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Casual Wear</span></div><img src="../../images/project-7.jpg" alt="alternative"></a>
                         </div>
-                        <div class="element-item design marketing">
+                        <div  data-aos="fade" data-aos-delay="700" class="element-item design marketing">
                             <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Zazoo Apps</span></div><img src="../../images/project-8.jpg" alt="alternative"></a>
                         </div>
                     </div> <!-- end of grid -->
@@ -858,193 +777,191 @@ $this->title = 'My Yii Application';
     <!-- end of projects -->
 
 
-    <!-- Project Lightboxes -->
-    <!-- Lightbox -->
-    <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../../images/project-1.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Online Banking</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+   <!-- Project Lightboxes -->
+<!-- Lightbox -->
+<div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+        <div  class="col-lg-8">
+            <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
+        </div> <!-- end of col -->
+        <div class="col-lg-4">
+            <h3>Online Banking</h3>
+            <hr class="line-heading">
+            <h6>Strategy Development</h6>
+            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+            <div class="testimonial-container">
+                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
+                <p class="testimonial-author">General Manager</p>
+            </div>
+            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+</div> <!-- end of lightbox-basic -->
+<!-- end of lightbox -->
 
-    <!-- Lightbox -->
-    <div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../../images/project-2.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Classic Industry</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+<!-- Lightbox -->
+<div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
+        </div> <!-- end of col -->
+        <div class="col-lg-4">
+            <h3>Classic Industry</h3>
+            <hr class="line-heading">
+            <h6>Strategy Development</h6>
+            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+            <div class="testimonial-container">
+                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
+                <p class="testimonial-author">General Manager</p>
+            </div>
+            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+</div> <!-- end of lightbox-basic -->
+<!-- end of lightbox -->
 
-    <!-- Lightbox -->
-    <div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../../images/project-3.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>BoomBap Audio</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+<!-- Lightbox -->
+<div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
+        </div> <!-- end of col -->
+        <div class="col-lg-4">
+            <h3>BoomBap Audio</h3>
+            <hr class="line-heading">
+            <h6>Strategy Development</h6>
+            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+            <div class="testimonial-container">
+                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
+                <p class="testimonial-author">General Manager</p>
+            </div>
+            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+</div> <!-- end of lightbox-basic -->
+<!-- end of lightbox -->
 
-    <!-- Lightbox -->
-    <div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../../images/project-4.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Van Moose</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+<!-- Lightbox -->
+<div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
+        </div> <!-- end of col -->
+        <div class="col-lg-4">
+            <h3>Van Moose</h3>
+            <hr class="line-heading">
+            <h6>Strategy Development</h6>
+            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+            <div class="testimonial-container">
+                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
+                <p class="testimonial-author">General Manager</p>
+            </div>
+            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+</div> <!-- end of lightbox-basic -->
+<!-- end of lightbox -->
 
-    <!-- Lightbox -->
-    <div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../../images/project-5.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Joy Moments</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+<!-- Lightbox -->
+<div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
+        </div> <!-- end of col -->
+        <div class="col-lg-4">
+            <h3>Joy Moments</h3>
+            <hr class="line-heading">
+            <h6>Strategy Development</h6>
+            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+            <div class="testimonial-container">
+                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
+                <p class="testimonial-author">General Manager</p>
+            </div>
+            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+</div> <!-- end of lightbox-basic -->
+<!-- end of lightbox -->
 
-    <!-- Lightbox -->
-    <div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../../images/project-6.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Spark Events</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+<!-- Lightbox -->
+<div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
+        </div> <!-- end of col -->
+        <div class="col-lg-4">
+            <h3>Spark Events</h3>
+            <hr class="line-heading">
+            <h6>Strategy Development</h6>
+            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+            <div class="testimonial-container">
+                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
+                <p class="testimonial-author">General Manager</p>
+            </div>
+            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+</div> <!-- end of lightbox-basic -->
+<!-- end of lightbox -->
 
-    <!-- Lightbox -->
-    <div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../../images/project-7.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Casual Wear</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
+<!-- Lightbox -->
+<div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
+        </div> <!-- end of col -->
+        <div class="col-lg-4">
+            <h3>Casual Wear</h3>
+            <hr class="line-heading">
+            <h6>Strategy Development</h6>
+            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+            <div class="testimonial-container">
+                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
+                <p class="testimonial-author">General Manager</p>
+            </div>
+            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+</div> <!-- end of lightbox-basic -->
+<!-- end of lightbox -->
 
-
-
-    <!-- Lightbox -->
-    <div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-            <div class="col-lg-8">
-                <img class="img-fluid" src="../../images/project-8.jpg" alt="alternative">
-            </div> <!-- end of col -->
-            <div class="col-lg-4">
-                <h3>Zazoo Apps</h3>
-                <hr class="line-heading">
-                <h6>Strategy Development</h6>
-                <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-                <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-                <div class="testimonial-container">
-                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                    <p class="testimonial-author">General Manager</p>
-                </div>
-                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-    <!-- end of project lightboxes -->
+<!-- Lightbox -->
+<div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+        <div class="col-lg-8">
+            <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
+        </div> <!-- end of col -->
+        <div class="col-lg-4">
+            <h3>Zazoo Apps</h3>
+            <hr class="line-heading">
+            <h6>Strategy Development</h6>
+            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
+            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
+            <div class="testimonial-container">
+                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
+                <p class="testimonial-author">General Manager</p>
+            </div>
+            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+</div> <!-- end of lightbox-basic -->
+<!-- end of lightbox -->
+<!-- end of project lightboxes -->
 
 
 
@@ -1055,11 +972,11 @@ $this->title = 'My Yii Application';
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-xl-6">
-                    <div class="image-container">
+                    <div  data-aos="fade-right" data-aos-delay="0" class="image-container">
                         <img class="img-fluid" src="../../images/about.jpg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
-                <div class="col-lg-7 col-xl-6">
+                <div  data-aos="fade-left" data-aos-delay="200" class="col-lg-7 col-xl-6">
                     <div class="text-container">
                         <div class="section-title">ABOUT</div>
                         <h2>We're Passionate About Delivering Growth Services</h2>
@@ -1076,7 +993,7 @@ $this->title = 'My Yii Application';
                         </ul>
 
                         <!-- Counter -->
-                        <div id="counter">
+                        <div id="counter" data-aos="zoom-in" data-aos-delay="500">
                             <div class="cell">
                                 <div class="counter-value number-count" data-count="231">1</div>
                                 <div class="counter-info">Happy<br>Users</div>
@@ -1104,7 +1021,7 @@ $this->title = 'My Yii Application';
     <div id="contact" class="form-2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right" >
                     <div class="text-container">
                         <div class="section-title">CONTACT</div>
                         <h2>Get In Touch Using The Form</h2>
@@ -1117,37 +1034,37 @@ $this->title = 'My Yii Application';
                         </ul>
                         <h3>Follow Aria On Social Media</h3>
 
-                        <span class="fa-stack">
+                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="100">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
+                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="200">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
+                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="300">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-pinterest fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
+                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="400">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
+                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="500">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-linkedin-in fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
+                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="600">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-behance fa-stack-1x"></i>
@@ -1155,7 +1072,7 @@ $this->title = 'My Yii Application';
                         </span>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                     
                     <!-- Contact Form -->
                     <form id="contactForm" data-toggle="validator" data-focus="false">
@@ -1178,7 +1095,7 @@ $this->title = 'My Yii Application';
                             <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with Aria's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
                             <div class="help-block with-errors"></div>
                         </div>
-                        <div class="form-group">
+                        <div data-aos="zoom-in" data-aos-delay="600" class="form-group">
                             <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
                         </div>
                         <div class="form-message">
@@ -1194,81 +1111,7 @@ $this->title = 'My Yii Application';
     <!-- end of contact -->
 
 
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-container about">
-                        <h4>Few Words About Aria</h4>
-                        <p class="white">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Links</h4>
-                        <ul class="list-unstyled li-space-lg white">
-                            <li>
-                                <a class="white" href="#your-link">startupguide.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Tools</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="#your-link">businessgrowth.com</a>
-                            </li>
-                            <li>
-                               <a class="white" href="#your-link">influencers.com</a>
-                            </li>
-                            <li class="media">
-                                <a class="white" href="#your-link">optimizer.net</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Partners</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="#your-link">unicorns.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="#your-link">staffmanager.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="#your-link">association.gov</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
-
-
-    <!-- Copyright -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Template by Inovatik</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
+    
     
         
 </div>
