@@ -6,9 +6,13 @@ use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;
+use app\models\Projects;
+use app\models\ImgRender;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use yii\helpers\ArrayHelper;
+
 
 class SiteController extends Controller
 {
@@ -60,18 +64,80 @@ class SiteController extends Controller
      * @return string
      */
     public function actionIndex()
-    {
-        return $this->render('index');
+    {   
+        $projects = new Projects();
+        $model = $projects->getProjects();
+        $model = array_slice($model, 0,8);
+        return $this->render('index',['projects'=>$model]);
     }
 
     public function actionProjects()
     {
-        return $this->render('projects');
+        $projects = new Projects();
+        $model = $projects->getProjects();
+        return $this->render('projects',['projects'=>$model]);
     }
 
     public function actionConsulting()
     {
         return $this->render('consulting');
+    }
+
+    public function actionPrices()
+    {
+        return $this->render('prices');
+    }
+    public function actionProjectView($id)
+    {
+        $project = Projects::findOne($id);
+        $img = ImgRender::find()->where(['idref'=>$project->id])->all();
+        Yii::$app->view->registerMetaTag(['name' => 'description','content' => $project->descr_prj]);
+        Yii::$app->view->registerMetaTag(['name' => 'keywords','content' => $project->keyword_prj]);
+        return $this->render('project-view',['project'=>$project,'img'=>$img]);
+    }
+
+    public function actionProjectSave()
+    {
+        Yii::$app->view->registerMetaTag(['name' => 'robots','content' => 'noindex']);
+        
+        if (Yii::$app->user->isGuest) {
+            return $this->redirect('login');
+        }
+        $id = null;
+        if(isset($_GET['id'])){
+            $id = $_GET['id'];
+        }
+        return $this->render('project-save',['id'=>$id]);
+    }
+
+     public function actionProjectsList()
+    {
+        Yii::$app->view->registerMetaTag(['name' => 'robots','content' => 'noindex']);
+        if (Yii::$app->user->isGuest) {
+            return $this->redirect('login');
+        }
+        $project = Projects::find()->all();
+        $img = ImgRender::find()->all();
+        $arr_img = [];
+        foreach ($img as $key => $value) {
+            if(empty($arr_img[$value->idref])){
+               $arr_img[$value->idref] = $value->img;
+            }
+        }
+        return $this->render('projects-list',['project'=>$project,'imgs'=>$arr_img]);
+    }
+
+    public function actionSave()
+    {
+        //echo "string";
+        //return true;
+        // if (Yii::$app->request->isAjax) {
+        //     $data = Yii::$app->request->post();
+        //     //data: { 'save_id' : fileid },
+        //     $mySaveId =  $data['save_id'];
+        //     echo $mySaveId;
+        //     // your logic;
+        // }
     }
 
     /**
@@ -81,13 +147,15 @@ class SiteController extends Controller
      */
     public function actionLogin()
     {
+
         if (!Yii::$app->user->isGuest) {
-            return $this->goHome();
+        //    return $this->goHome();
+            $this->redirect('projects-list');
         }
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
+            return $this->redirect('projects-list');
         }
 
         $model->password = '';
@@ -115,15 +183,7 @@ class SiteController extends Controller
      */
     public function actionContact()
     {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
-        }
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
+        return $this->render('contact');
     }
 
     /**

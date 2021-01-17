@@ -1,4 +1,4 @@
-    <div class="row">
+<!--     <div class="row">
         <form class="advice-form" id="contactForm" data-toggle="validator" data-focus="false">
         	<div class="form-group">
             <input type="text" class="form-control-input" id="cname" required="">
@@ -13,3 +13,4 @@
         <a class="btn-solid-lg page-scroll" href="#intro">Надіслати</a>
         </form>
     </div>
+ -->

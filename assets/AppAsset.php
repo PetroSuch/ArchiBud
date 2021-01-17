@@ -25,7 +25,13 @@ class AppAsset extends AssetBundle
         'css/magnific-popup.css',
         'css/swiper.css',
         'css/aos.css',
+        'css/slick.css',
+        'css/slick-theme.css',
+        'css/basic.min.css',
+        'css/dropzone.min.css',
         'css/styles.css',
+         "css/sweetalert2.min.css",
+
     ];
     public $js = [
         "js/jquery.min.js",
@@ -37,7 +43,13 @@ class AppAsset extends AssetBundle
         "js/morphext.min.js",
         "js/isotope.pkgd.min.js",
         "js/validator.min.js",
+        "js/parallax.min.js",
         "js/aos.js",
+        "js/slick.min.js",
+        "js/jquery.validate.min.js",
+        "js/dropzone.min.js",
+        "js/localization/messages_uk.min.js",
+        "js/sweetalert2.min.js",
         "js/scripts.js"
     ];
     public $depends = [

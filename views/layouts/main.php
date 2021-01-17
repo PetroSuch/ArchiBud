@@ -28,7 +28,7 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-    <div>
+    <div class="overflow-hidden">
         <?php echo $this->render('@app/views/layouts/header'); ?>
         <?= $content ?>
         <?php echo $this->render('@app/views/layouts/footer'); ?>

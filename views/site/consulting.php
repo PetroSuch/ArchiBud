@@ -19,7 +19,7 @@ $this->title = 'Консалтинг';
 		<div class="col-lg-12">
 			<h2 class="text-center" data-aos="fade-down">Архітектурний супровід будівництва</h2>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting" data-aos="fade-right" data-aos-delay="50" data-aos-delay="0">
 				<div class="icon-consulting">
 					<i class=" fas fa-project-diagram"></i>
@@ -29,7 +29,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting" data-aos="fade-right" data-aos-delay="100" data-aos-delay="100">
 				<div class="icon-consulting">
 					<i class="far fa-building"></i>
@@ -39,7 +39,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting" data-aos="fade-right" data-aos-delay="150" data-aos-delay="200">
 				<div class="icon-consulting">
 					<i class="fas fa-dollar-sign"></i>
@@ -49,7 +49,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting" data-aos="fade-right" data-aos-delay="200" data-aos-delay="300">
 				<div class="icon-consulting">
 					<i class="fas fa-sitemap"></i>
@@ -59,7 +59,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting" data-aos="fade-right" data-aos-delay="250" data-aos-delay="400">
 				<div class="icon-consulting">
 					<i class="fas fa-pencil-alt"></i>
@@ -73,7 +73,7 @@ $this->title = 'Консалтинг';
 		<div class="col-lg-12 mt-5 pt-5">
 			<h2 class="text-center">Комплексний аналіз ділянки під забудову</h2>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="50">
 				<div class="icon-consulting">
 					<i class=" fas fa-project-diagram"></i>
@@ -83,7 +83,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="100">
 				<div class="icon-consulting">
 					<i class="far fa-building"></i>
@@ -93,7 +93,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="150">
 				<div class="icon-consulting">
 					<i class="fas fa-dollar-sign"></i>
@@ -103,7 +103,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="200">
 				<div class="icon-consulting">
 					<i class="fas fa-sitemap"></i>
@@ -117,7 +117,7 @@ $this->title = 'Консалтинг';
 		<div class="col-lg-12 mt-5 pt-5">
 			<h2 class="text-center">Управління будівництвом</h2>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="50">
 				<div class="icon-consulting">
 					<i class=" fas fa-project-diagram"></i>
@@ -127,7 +127,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="100">
 				<div class="icon-consulting">
 					<i class="far fa-building"></i>
@@ -137,7 +137,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="150">
 				<div class="icon-consulting">
 					<i class="fas fa-dollar-sign"></i>
@@ -151,7 +151,7 @@ $this->title = 'Консалтинг';
 		<div class="col-lg-12 mt-5 pt-5">
 			<h2 class="text-center">Консультації при купівлі квартири</h2>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="50">
 				<div class="icon-consulting">
 					<i class=" fas fa-project-diagram"></i>
@@ -161,7 +161,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="100">
 				<div class="icon-consulting">
 					<i class="far fa-building"></i>
@@ -171,7 +171,7 @@ $this->title = 'Консалтинг';
 				</p>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-6 col-xs-12 mt-5">
+		<div class="col-lg-12 col-md-12 col-xs-12 mt-3">
 			<div class="item-consulting fade-right" data-aos="fade-right" data-aos-delay="150">
 				<div class="icon-consulting">
 					<i class="fas fa-dollar-sign"></i>

@@ -10,14 +10,17 @@ $this->title = 'Про нас';
 
        <!-- Header -->
     <header id="header" class="header">
-        <div class="header-content">
+
+        <div  class="header-content parallax-window">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-container">
-                            <h1 data-aos="zoom-in">BUSINESS <span id="js-rotating">TEMPLATE, SERVICES, SOLUTIONS</span></h1>
-                            <p data-aos="zoom-in" data-aos-delay="200" class="p-heading p-large">Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics</p>
-                            <a data-aos="fade-up" data-aos-delay="500" class="btn-solid-lg page-scroll" href="#intro">DISCOVER</a>
+                            <h1 class="h4 mb-3" height="50" data-aos="zoom-in">Архітектурна майстерня Ярослава Терлецького <!-- <span id="js-rotating">TEMPLATE, SERVICES, SOLUTIONS</span> --></h1>
+                            <p data-aos="zoom-in" data-aos-delay="200" class="p-heading p-large mb-5">Індивідуальне проектування ваших мрій</p>
+                            <span data-aos="fade-up" data-aos-delay="500">
+                                <a  class="btn-solid-lg transparent page-scroll" href="#intro">Далі</a>
+                            </span>
                         </div>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -32,18 +35,15 @@ $this->title = 'Про нас';
         <div class="container">
             <div class="row">
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
-                    <div class="text-container">
-                        <div class="section-title">INTRO</div>
-                        <h2>We Offer Some Of The Best Business Growth Services In Town</h2>
-                        <p>Launching a new company or developing the market position of an existing one can be quite an overwhelming processs at times.</p>
-                        <p class="testimonial-text">"Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting and growing companies."</p>
-                        <div class="testimonial-author">Louise Donovan - CEO</div>
+                    <div class="text-container mt-0">
+                        <h2 class="h4">Будівництво власного житла за індивідуальним проектом - це перший крок до втілення мрії</h2>
+                        <p>Хтось будує один будинок, а хтось декілька протягом свого життя.</p>
+                        <p>І кожен з них хоче побудувати свою мрію, але не всім це вдається навіть з третього-четвертого разу. Зробити як треба - важко. Але ми, в свою чергу, допоможемо вам з цим впоратись.</p>
+                        <div class="testimonial-author">Ярослав Терлецький - засновник</div>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-7"  data-aos="fade-up" data-aos-delay="400">
-                    <div class="image-container">
-                        <img class="img-fluid" src="../../images/intro-office.jpg" alt="alternative">
-                    </div> <!-- end of image-container -->
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aDHLAk4iouU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -51,7 +51,310 @@ $this->title = 'Про нас';
     <!-- end of intro -->
 
 
-    <!-- Description -->
+   
+
+   <div id="counter" class="basic-2 counter" style="padding-bottom: 50px;">
+       <div class="container">
+            <div class="row">
+                <div class="col-lg-12"  data-aos="zoom-in" data-aos-delay="100">
+                  <h2>Деякі цікаві факти про наше агентство?</h2>
+                </div>
+            </div>
+          <div class="row">  
+            <div class="col-lg-12 growth" id="counter">
+                <div class="cell-2" data-aos="fade-up" data-aos-delay="400">
+                    <div class="counter-value number-count" data-count="10">1</div>
+                    <div class="counter-info">РОКІВ НА РИНКУ</div>
+                </div>
+                <div class="cell-2" data-aos="fade-up" data-aos-delay="600">
+                    <div class="counter-value number-count" data-count="620">1</div>
+                    <div class="counter-info">ПРОЕКТІВ</div>
+                </div>
+                <div class="cell-2" data-aos="fade-up" data-aos-delay="800">
+                    <div class="counter-value number-count" data-count="540">1</div>
+                    <div class="counter-info">РЕАЛІЗОВАНО</div>
+                </div>
+            </div>
+          </div>
+       </div>
+    </div>
+
+
+    <div>
+         <h2 class="text-center mt-5" data-aos="fade" data-aos-delay="100">Наші послуги</h2>
+         
+             <div class="our-services item-1 mt-3">
+                <div class="bg-service"></div>
+                <div class="filter-bg-services" data-aos="fade" data-aos-delay="500">
+                    <div class="container ">
+                        <div class="services-content">
+                             <h3 class="text-white" data-aos="fade-left" data-aos-delay="800">Архітектура</h3>
+                             <p class="mt-2 text-white" data-aos="fade-left" data-aos-delay="900">Концептуальний проект Робочий проект</p>
+                             <span data-aos="fade-right" data-aos-delay="1000">
+                                <a class="mt-2 btn-solid-lg transparent page-scroll" href="#intro">Переглянути</a>
+                             </span>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         
+         <div class="our-services item-2 mt-5">
+            <div class="bg-service"></div>
+            <div class="filter-bg-services" data-aos="fade" data-aos-delay="500">
+                 <div class="container">
+                    <div class="services-content">
+                         <h3 class="text-white" data-aos="fade-right" data-aos-delay="800">ІНТЕР’ЄР</h3>
+                         <p class="mt-2 text-white" data-aos="fade-right" data-aos-delay="900">Інтер’єр житлових будинків та квартир
+    Інтер’єр громадських та комерційних приміщень
+    Авторський нагляд під час виконання</p> 
+                        <span data-aos="fade-right" data-aos-delay="1000">
+                          <a class="mt-2 btn-solid-lg transparent page-scroll" href="#intro" >Переглянути</a>
+                        </span>
+                    </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+        <!-- Team -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 data-aos="fade-down">Our Team Of Consultants</h2>
+                    <p data-aos="fade-down" data-aos-delay="300" class="p-heading">We're only as strong and as knowledgeable as our team. So here are the men and women which help customers meet goals and grow companies</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Team Member -->
+                    <div data-aos="fade-up" data-aos-delay="100" class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="../../images/team-1.png" alt="alternative">
+                        </div> <!-- end of image-wrapper -->
+                        <p class="p-large">John Whitelong</p>
+                        <p class="job-title">General Manager</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div data-aos="fade-up" data-aos-delay="200" class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="../../images/team-2.png" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Veronique Smith</p>
+                        <p class="job-title">Business Developer</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div data-aos="fade-up" data-aos-delay="300" class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="../../images/team-3.png" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Chris Zimerman</p>
+                        <p class="job-title">Online Marketer</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div data-aos="fade-up" data-aos-delay="400" class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="../../images/team-4.png" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Mary Villalonga</p>
+                        <p class="job-title">Community Manager</p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of team -->
+
+    <!-- Projects -->
+    <div id="projects" class="filter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div data-aos="fade-down" data-aos-delay="0" class="section-title">PROJECTS</div>
+                    <h2 data-aos="fade-up" data-aos-delay="100">Projects That We're Proud Of</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Filter -->
+                    <div class="button-group filters-button-group">
+                        <a data-aos="fade-left" data-aos-delay="0" class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
+                        <a data-aos="fade-left" data-aos-delay="200" class="button" data-filter=".design"><span>DESIGN</span></a>
+                        <a data-aos="fade-left" data-aos-delay="300" class="button" data-filter=".development"><span>DEVELOPMENT</span></a>
+                        <a data-aos="fade-left" data-aos-delay="500" class="button" data-filter=".marketing"><span>MARKETING</span></a>
+                        <a data-aos="fade-left" data-aos-delay="700" class="button" data-filter=".seo"><span>SEO</span></a>
+                    </div> <!-- end of button group -->
+                    <div class="grid">
+                        <?php foreach($projects as $key=>$value): ?>
+                        <div data-aos="fade" data-aos-delay="10" class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-<?=$value['id']?>"><div class="element-item-overlay"><span><?=$value['title_prj']?></span></div><img src="../../web/pics/projects/<?=$value['date']?>/<?=$value['id']?>/<?=isset($value['img'])?$value['img']:''?>" alt="alternative"></a>
+                        </div>
+                       <!--  -->
+                        <?php endforeach; ?>
+                    </div> <!-- end of grid -->
+                    <!-- end of filter -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of filter -->
+    <!-- end of projects -->
+
+
+   <!-- Project Lightboxes -->
+<!-- Lightbox -->
+<?php foreach($projects as $key=>$value): ?>
+    <div id="project-<?=$value['id']?>" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div  class="col-lg-8">
+                <img class="img-fluid" src="../../web/pics/projects/<?=$value['date']?>/<?=$value['id']?>/<?=isset($value['img'])?$value['img']:''?>" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3><?=$value['title_prj']?></h3>
+                <hr class="line-heading">
+                <p><?=$value['author_prj']?></p>
+                <h6><?=$value['descr_prj']?></h6>
+                <p >Локація: <span class="font-weight-bold"><?=$value['location_prj']?></span></p>
+                <p>Тип: <span class="font-weight-bold"><?=$value['type_prj']?></span></p>
+                <p>Площа: <span class="font-weight-bold"><?=$value['square_prj']?></span></p>
+                <p>Рік: <span class="font-weight-bold"><?=$value['year_prj']?></span></p>
+               <!--  <div class="testimonial-container">
+                    <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
+                    <p class="testimonial-author">General Manager</p>
+                </div> -->
+               <!--  <a class="btn-solid-reg" href="#your-link">DETAILS</a> --> <a class="btn-outline-reg mfp-close as-button" href="#projects">Закрити</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+<?php endforeach; ?>
+
+
+    <!-- About -->
+    <div id="about" class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-xl-6">
+                    <div  data-aos="fade-right" data-aos-delay="0" class="image-container">
+                        <img class="img-fluid" src="../../images/about.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div  data-aos="fade-left" data-aos-delay="200" class="col-lg-7 col-xl-6">
+                    <div class="text-container">
+                        <div class="section-title">ABOUT</div>
+                        <h2>We're Passionate About Delivering Growth Services</h2>
+                        <p>Our goal is to provide the right business growth services at the appropriate time so companies can benefit from the created momentum and thrive for a long period of time</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Everything we recommend has direct positive impact</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">You will become an important partner of our company</div>
+                            </li>
+                        </ul>
+
+                        <!-- Counter -->
+                        <div id="counter" data-aos="zoom-in" data-aos-delay="500">
+                            <div class="cell">
+                                <div class="counter-value number-count" data-count="231">1</div>
+                                <div class="counter-info">Happy<br>Users</div>
+                            </div>
+                            <div class="cell">
+                                <div class="counter-value number-count" data-count="121">1</div>
+                                <div class="counter-info">Issues<br>Solved</div>
+                            </div>
+                            <div class="cell">
+                                <div class="counter-value number-count" data-count="159">1</div>
+                                <div class="counter-info">Good<br>Reviews</div>
+                            </div>
+                        </div>
+                        <!-- end of counter -->
+
+                    </div> <!-- end of text-container -->      
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of counter -->
+    <!-- end of about -->
+
+    <div class="mb-5">
+        <?php echo $this->render('@app/views/layouts/contact'); ?>
+    </div>
+
+    
+    
+        
+</div>
+
+
+
+ <!-- Description -->
     <div style="display: none;" class="cards-1">
         <div class="container">
             <div class="row">
@@ -373,745 +676,180 @@ $this->title = 'Про нас';
 
 
     <!-- Testimonials -->
-    <div style="display: none;" class="slider">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Read Our Customer Testimonials</h2>
-                    <p class="p-heading">Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives</p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+<div style="display: none;" class="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Read Our Customer Testimonials</h2>
+                <p class="p-heading">Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives</p>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="row">
+            <div class="col-lg-12">
 
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="../../images/testimonial-1.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">The guys from Aria helped with getting my business off the ground and turning into a profitable company.</div>
-                                            <div class="testimonial-author">Jude Thorn - Founder</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="../../images/testimonial-2.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I purchased the Growth Accelerator service pack a few years ago and I renewed the contract each year. </div>
-                                            <div class="testimonial-author">Marsha Singer - Marketer</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="../../images/testimonial-3.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">Aria's CEO personally attends client meetings and gives his feedback on business growth strategies.</div>
-                                            <div class="testimonial-author">Roy Smith - Developer</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="../../images/testimonial-4.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">At the beginning I thought the prices are a little high for what they offer but they over deliver each and every time.</div>
-                                            <div class="testimonial-author">Ronald Spice - Owner</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="../../images/testimonial-5.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I recommend Aria to every business owner or growth leader that wants to take his company to the next level.</div>
-                                            <div class="testimonial-author">Lindsay Rune - Manager</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="../../images/testimonial-6.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">My goals for using Aria's services seemed high when I first set them but they've met them with no problems.</div>
-                                            <div class="testimonial-author">Ann Black - Consultant</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
+                <!-- Card Slider -->
+                <div class="slider-container">
+                    <div class="swiper-container card-slider">
+                        <div class="swiper-wrapper">
                             
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of sliedr-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider -->
-    <!-- end of testimonials -->
-
-
-    <!-- Call Me -->
-    <div style="display: none;" id="callMe" class="form-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <div class="section-title">CALL ME</div>
-                        <h2 class="white">Have Us Contact You By Filling And Submitting The Form</h2>
-                        <p class="white">You are just a few steps away from a personalized offer. Just fill in the form and send it to us and we'll get right back with a call to help you decide what service package works.</p>
-                        <ul class="list-unstyled li-space-lg white">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">It's very easy just fill in the form so we can call</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">During the call we'll require some info about the company</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Don't hesitate to email us for any questions or inquiries</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                   
-                    <!-- Call Me Form -->
-                    <form id="callMeForm" data-toggle="validator" data-focus="false">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="lname" name="lname" required>
-                            <label class="label-control" for="lname">Name</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="lphone" name="lphone" required>
-                            <label class="label-control" for="lphone">Phone</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="lemail" name="lemail" required>
-                            <label class="label-control" for="lemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control-select" id="lselect" required>
-                                <option class="select-option" value="" disabled selected>Interested in...</option>
-                                <option class="select-option" value="Off The Ground">Off The Ground</option>
-                                <option class="select-option" value="Accelerated Growth">Accelerated Growth</option>
-                                <option class="select-option" value="Market Domination">Market Domination</option>
-                            </select>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox white">
-                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with Aria's stated <a class="white" href="privacy-policy.html">Privacy Policy</a> and <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">CALL ME</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="lmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
-                    <!-- end of call me form -->
-                    
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-1 -->
-    <!-- end of call me -->
-
-   <div id="counter" class="basic-2 counter" style="padding-bottom: 50px;">
-       <div class="container">
-            <div class="row">
-                <div class="col-lg-12"  data-aos="zoom-in" data-aos-delay="100">
-                  <h2>Some Fun Facts about our agency?</h2>
-                </div>
-            </div>
-          <div class="row">  
-            <div class="col-lg-12 growth" id="counter">
-                <div class="cell-2" data-aos="fade-up" data-aos-delay="400">
-                    <div class="counter-value number-count" data-count="10">1</div>
-                    <div class="counter-info">РОКІВ НА РИНКУ</div>
-                </div>
-                <div class="cell-2" data-aos="fade-up" data-aos-delay="600">
-                    <div class="counter-value number-count" data-count="620">1</div>
-                    <div class="counter-info">ПРОЕКТІВ</div>
-                </div>
-                <div class="cell-2" data-aos="fade-up" data-aos-delay="800">
-                    <div class="counter-value number-count" data-count="540">1</div>
-                    <div class="counter-info">РЕАЛІЗОВАНО</div>
-                </div>
-            </div>
-          </div>
-       </div>
-    </div>
-
-
-    <div>
-         <h2 class="text-center mt-5" data-aos="fade" data-aos-delay="100">Наші послуги</h2>
-         
-             <div class="our-services item-1 mt-3">
-                <div class="bg-service" data-aos="zoom-in" data-aos-delay="100"></div>
-                <div class="filter-bg-services" data-aos="fade" data-aos-delay="500">
-                    <div class="container ">
-                        <div class="services-content">
-                             <h3 class="text-white" data-aos="fade-left" data-aos-delay="800">Архітектура</h3>
-                             <p class="mt-2 text-white" data-aos="fade-left" data-aos-delay="900">Концептуальний проект Робочий проект</p>
-                              <a class="mt-2 btn-solid-lg page-scroll" href="#intro" data-aos="zoom-in" data-aos-delay="1200">Переглянути</a>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         
-         <div class="our-services item-2 mt-5">
-            <div class="bg-service" data-aos="zoom-in" data-aos-delay="100"></div>
-            <div class="filter-bg-services" data-aos="fade" data-aos-delay="500">
-                 <div class="container">
-                    <div class="services-content">
-                         <h3 class="text-white" data-aos="fade-right" data-aos-delay="800">ІНТЕР’ЄР</h3>
-                         <p class="mt-2 text-white" data-aos="fade-right" data-aos-delay="900">Інтер’єр житлових будинків та квартир
-    Інтер’єр громадських та комерційних приміщень
-    Авторський нагляд під час виконання</p>
-                          <a class="mt-2 btn-solid-lg page-scroll" href="#intro" data-aos="zoom-in" data-aos-delay="1200">Переглянути</a>
-                    </div>
-                 </div>
-             </div>
-         </div>
-    </div>
-        <!-- Team -->
-    <div class="basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 data-aos="fade-down">Our Team Of Consultants</h2>
-                    <p data-aos="fade-down" data-aos-delay="300" class="p-heading">We're only as strong and as knowledgeable as our team. So here are the men and women which help customers meet goals and grow companies</p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Team Member -->
-                    <div data-aos="fade-up" data-aos-delay="100" class="team-member">
-                        <div class="image-wrapper">
-                            <img class="img-fluid" src="../../images/team-1.png" alt="alternative">
-                        </div> <!-- end of image-wrapper -->
-                        <p class="p-large">John Whitelong</p>
-                        <p class="job-title">General Manager</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                        </span>
-                    </div> <!-- end of team-member -->
-                    <!-- end of team member -->
-
-                    <!-- Team Member -->
-                    <div data-aos="fade-up" data-aos-delay="200" class="team-member">
-                        <div class="image-wrapper">
-                            <img class="img-fluid" src="../../images/team-2.png" alt="alternative">
-                        </div> <!-- end of image wrapper -->
-                        <p class="p-large">Veronique Smith</p>
-                        <p class="job-title">Business Developer</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                        </span>
-                    </div> <!-- end of team-member -->
-                    <!-- end of team member -->
-
-                    <!-- Team Member -->
-                    <div data-aos="fade-up" data-aos-delay="300" class="team-member">
-                        <div class="image-wrapper">
-                            <img class="img-fluid" src="../../images/team-3.png" alt="alternative">
-                        </div> <!-- end of image wrapper -->
-                        <p class="p-large">Chris Zimerman</p>
-                        <p class="job-title">Online Marketer</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                        </span>
-                    </div> <!-- end of team-member -->
-                    <!-- end of team member -->
-
-                    <!-- Team Member -->
-                    <div data-aos="fade-up" data-aos-delay="400" class="team-member">
-                        <div class="image-wrapper">
-                            <img class="img-fluid" src="../../images/team-4.png" alt="alternative">
-                        </div> <!-- end of image wrapper -->
-                        <p class="p-large">Mary Villalonga</p>
-                        <p class="job-title">Community Manager</p>
-                        <span class="social-icons">
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                        </span>
-                    </div> <!-- end of team-member -->
-                    <!-- end of team member -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of team -->
-
-    <!-- Projects -->
-    <div id="projects" class="filter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div data-aos="fade-down" data-aos-delay="0" class="section-title">PROJECTS</div>
-                    <h2 data-aos="zoom-in" data-aos-delay="100">Projects That We're Proud Of</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Filter -->
-                    <div class="button-group filters-button-group">
-                        <a data-aos="fade-left" data-aos-delay="0" class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
-                        <a data-aos="fade-left" data-aos-delay="200" class="button" data-filter=".design"><span>DESIGN</span></a>
-                        <a data-aos="fade-left" data-aos-delay="300" class="button" data-filter=".development"><span>DEVELOPMENT</span></a>
-                        <a data-aos="fade-left" data-aos-delay="500" class="button" data-filter=".marketing"><span>MARKETING</span></a>
-                        <a data-aos="fade-left" data-aos-delay="700" class="button" data-filter=".seo"><span>SEO</span></a>
-                    </div> <!-- end of button group -->
-                    <div class="grid">
-                        <div data-aos="fade" data-aos-delay="10" class="element-item development">
-                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Online Banking</span></div><img src="../../images/project-1.jpg" alt="alternative"></a>
-                        </div>
-                        <div data-aos="fade" data-aos-delay="100" class="element-item development">
-                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Classic Industry</span></div><img src="../../images/project-2.jpg" alt="alternative"></a>
-                        </div>
-                        <div data-aos="fade" data-aos-delay="200" class="element-item design development marketing">
-                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>BoomBap Audio</span></div><img src="../../images/project-3.jpg" alt="alternative"></a>
-                        </div>
-                        <div  data-aos="fade" data-aos-delay="300" class="element-item design development marketing">
-                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Van Moose</span></div><img src="../../images/project-4.jpg" alt="alternative"></a>
-                        </div>
-                        <div  data-aos="fade" data-aos-delay="400" class="element-item design development marketing seo">
-                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Joy Moments</span></div><img src="../../images/project-5.jpg" alt="alternative"></a>
-                        </div>
-                        <div  data-aos="fade" data-aos-delay="500" class="element-item design marketing seo">
-                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>Spark Events</span></div><img src="../../images/project-6.jpg" alt="alternative"></a>
-                        </div>
-                        <div  data-aos="fade" data-aos-delay="600" class="element-item design marketing">
-                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Casual Wear</span></div><img src="../../images/project-7.jpg" alt="alternative"></a>
-                        </div>
-                        <div  data-aos="fade" data-aos-delay="700" class="element-item design marketing">
-                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Zazoo Apps</span></div><img src="../../images/project-8.jpg" alt="alternative"></a>
-                        </div>
-                    </div> <!-- end of grid -->
-                    <!-- end of filter -->
-                    
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of filter -->
-    <!-- end of projects -->
-
-
-   <!-- Project Lightboxes -->
-<!-- Lightbox -->
-<div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
-    <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-        <div  class="col-lg-8">
-            <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <h3>Online Banking</h3>
-            <hr class="line-heading">
-            <h6>Strategy Development</h6>
-            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                <p class="testimonial-author">General Manager</p>
-            </div>
-            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-
-<!-- Lightbox -->
-<div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
-    <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-        <div class="col-lg-8">
-            <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <h3>Classic Industry</h3>
-            <hr class="line-heading">
-            <h6>Strategy Development</h6>
-            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                <p class="testimonial-author">General Manager</p>
-            </div>
-            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-
-<!-- Lightbox -->
-<div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
-    <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-        <div class="col-lg-8">
-            <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <h3>BoomBap Audio</h3>
-            <hr class="line-heading">
-            <h6>Strategy Development</h6>
-            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                <p class="testimonial-author">General Manager</p>
-            </div>
-            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-
-<!-- Lightbox -->
-<div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
-    <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-        <div class="col-lg-8">
-            <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <h3>Van Moose</h3>
-            <hr class="line-heading">
-            <h6>Strategy Development</h6>
-            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                <p class="testimonial-author">General Manager</p>
-            </div>
-            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-
-<!-- Lightbox -->
-<div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
-    <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-        <div class="col-lg-8">
-            <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <h3>Joy Moments</h3>
-            <hr class="line-heading">
-            <h6>Strategy Development</h6>
-            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                <p class="testimonial-author">General Manager</p>
-            </div>
-            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-
-<!-- Lightbox -->
-<div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
-    <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-        <div class="col-lg-8">
-            <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <h3>Spark Events</h3>
-            <hr class="line-heading">
-            <h6>Strategy Development</h6>
-            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                <p class="testimonial-author">General Manager</p>
-            </div>
-            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-
-<!-- Lightbox -->
-<div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
-    <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-        <div class="col-lg-8">
-            <img class="img-fluid" src="images/project-7.jpg" alt="alternative">
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <h3>Casual Wear</h3>
-            <hr class="line-heading">
-            <h6>Strategy Development</h6>
-            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                <p class="testimonial-author">General Manager</p>
-            </div>
-            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-
-<!-- Lightbox -->
-<div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
-    <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-        <div class="col-lg-8">
-            <img class="img-fluid" src="images/project-8.jpg" alt="alternative">
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <h3>Zazoo Apps</h3>
-            <hr class="line-heading">
-            <h6>Strategy Development</h6>
-            <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
-            <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.</p>
-                <p class="testimonial-author">General Manager</p>
-            </div>
-            <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-<!-- end of project lightboxes -->
-
-
-
-
-
-    <!-- About -->
-    <div id="about" class="counter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-xl-6">
-                    <div  data-aos="fade-right" data-aos-delay="0" class="image-container">
-                        <img class="img-fluid" src="../../images/about.jpg" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div  data-aos="fade-left" data-aos-delay="200" class="col-lg-7 col-xl-6">
-                    <div class="text-container">
-                        <div class="section-title">ABOUT</div>
-                        <h2>We're Passionate About Delivering Growth Services</h2>
-                        <p>Our goal is to provide the right business growth services at the appropriate time so companies can benefit from the created momentum and thrive for a long period of time</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Everything we recommend has direct positive impact</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">You will become an important partner of our company</div>
-                            </li>
-                        </ul>
-
-                        <!-- Counter -->
-                        <div id="counter" data-aos="zoom-in" data-aos-delay="500">
-                            <div class="cell">
-                                <div class="counter-value number-count" data-count="231">1</div>
-                                <div class="counter-info">Happy<br>Users</div>
-                            </div>
-                            <div class="cell">
-                                <div class="counter-value number-count" data-count="121">1</div>
-                                <div class="counter-info">Issues<br>Solved</div>
-                            </div>
-                            <div class="cell">
-                                <div class="counter-value number-count" data-count="159">1</div>
-                                <div class="counter-info">Good<br>Reviews</div>
-                            </div>
-                        </div>
-                        <!-- end of counter -->
-
-                    </div> <!-- end of text-container -->      
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of counter -->
-    <!-- end of about -->
-
-
-    <!-- Contact -->
-    <div id="contact" class="form-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6" data-aos="fade-right" >
-                    <div class="text-container">
-                        <div class="section-title">CONTACT</div>
-                        <h2>Get In Touch Using The Form</h2>
-                        <p>You can stop by our office for a cup of coffee and just use the contact form below for any questions and inquiries</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="address"><i class="fas fa-map-marker-alt"></i>22nd Innovative Street, San Francisco, CA 94043, US</li>
-                            <li><i class="fas fa-phone"></i><a href="tel:003024630820">+81 720 22 126</a></li>
-                            <li><i class="fas fa-phone"></i><a href="tel:003024630820">+81 720 22 128</a></li>
-                            <li><i class="fas fa-envelope"></i><a href="mailto:office@aria.com">office@aria.com</a></li>
-                        </ul>
-                        <h3>Follow Aria On Social Media</h3>
-
-                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="100">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="200">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="300">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-pinterest fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="400">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="500">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack" data-aos="fade-up" data-aos-delay="600">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-behance fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-                    
-                    <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Your message</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with Aria's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div data-aos="zoom-in" data-aos-delay="600" class="form-group">
-                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
-                    <!-- end of contact form -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-2 -->
-    <!-- end of contact -->
-
-
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="../../images/testimonial-1.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">The guys from Aria helped with getting my business off the ground and turning into a profitable company.</div>
+                                        <div class="testimonial-author">Jude Thorn - Founder</div>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
     
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="../../images/testimonial-2.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">I purchased the Growth Accelerator service pack a few years ago and I renewed the contract each year. </div>
+                                        <div class="testimonial-author">Marsha Singer - Marketer</div>
+                                    </div>
+                                </div>        
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
     
-        
-</div>
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="../../images/testimonial-3.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">Aria's CEO personally attends client meetings and gives his feedback on business growth strategies.</div>
+                                        <div class="testimonial-author">Roy Smith - Developer</div>
+                                    </div>
+                                </div>        
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+    
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="../../images/testimonial-4.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">At the beginning I thought the prices are a little high for what they offer but they over deliver each and every time.</div>
+                                        <div class="testimonial-author">Ronald Spice - Owner</div>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+    
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="../../images/testimonial-5.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">I recommend Aria to every business owner or growth leader that wants to take his company to the next level.</div>
+                                        <div class="testimonial-author">Lindsay Rune - Manager</div>
+                                    </div>
+                                </div>        
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+    
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="../../images/testimonial-6.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <div class="testimonial-text">My goals for using Aria's services seemed high when I first set them but they've met them with no problems.</div>
+                                        <div class="testimonial-author">Ann Black - Consultant</div>
+                                    </div>
+                                </div>        
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+                        
+                        </div> <!-- end of swiper-wrapper -->
+    
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- end of add arrows -->
+    
+                    </div> <!-- end of swiper-container -->
+                </div> <!-- end of sliedr-container -->
+                <!-- end of card slider -->
+
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of slider -->
+<!-- end of testimonials -->
+
+
+<!-- Call Me -->
+<div style="display: none;" id="callMe" class="form-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-container">
+                    <div class="section-title">CALL ME</div>
+                    <h2 class="white">Have Us Contact You By Filling And Submitting The Form</h2>
+                    <p class="white">You are just a few steps away from a personalized offer. Just fill in the form and send it to us and we'll get right back with a call to help you decide what service package works.</p>
+                    <ul class="list-unstyled li-space-lg white">
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">It's very easy just fill in the form so we can call</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">During the call we'll require some info about the company</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">Don't hesitate to email us for any questions or inquiries</div>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+               
+                <!-- Call Me Form -->
+                <form id="callMeForm" data-toggle="validator" data-focus="false">
+                    <div class="form-group">
+                        <input type="text" class="form-control-input" id="lname" name="lname" required>
+                        <label class="label-control" for="lname">Name</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control-input" id="lphone" name="lphone" required>
+                        <label class="label-control" for="lphone">Phone</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control-input" id="lemail" name="lemail" required>
+                        <label class="label-control" for="lemail">Email</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control-select" id="lselect" required>
+                            <option class="select-option" value="" disabled selected>Interested in...</option>
+                            <option class="select-option" value="Off The Ground">Off The Ground</option>
+                            <option class="select-option" value="Accelerated Growth">Accelerated Growth</option>
+                            <option class="select-option" value="Market Domination">Market Domination</option>
+                        </select>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group checkbox white">
+                        <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with Aria's stated <a class="white" href="privacy-policy.html">Privacy Policy</a> and <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control-submit-button">CALL ME</button>
+                    </div>
+                    <div class="form-message">
+                        <div id="lmsgSubmit" class="h3 text-center hidden"></div>
+                    </div>
+                </form>
+                <!-- end of call me form -->
+                
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of form-1 -->
+<!-- end of call me -->

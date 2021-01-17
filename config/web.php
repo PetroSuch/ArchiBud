@@ -17,6 +17,12 @@ $config = [
             'baseUrl'=> '',
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'archiwood-secret-key-qq1111',
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ],
+        ],
+        'mailer' => [
+            'class' => 'yii\swiftmailer\Mailer',
         ],
 
         'assetManager' => [
@@ -59,10 +65,44 @@ $config = [
         
         'urlManager' => [
             'enablePrettyUrl' => true,
+           // 'enableStrictParsing' => false,
             'showScriptName' => false,
             'rules' => [
-                '<action:(.*)>' => 'site/<action>',
+                //'<action:(.*)>' => 'user/<action>',
+               // '<action:(.*)>' => 'user/<action>',
+                'index'=>'site/index',
+                'projects'=>'site/projects',
+                'project-view/<id>'=>'site/project-view',
+                'consulting'=>'site/consulting',
+                'prices'=>'site/prices',
+                'contact'=>'site/contact',
+                'login'=>'site/login',
+                'logout'=>'site/logout',
+                'projects-list'=>'site/projects-list',
+                'project-save'=>'site/project-save',
+                'project-save/<id>'=>'site/project-save',
+                //['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
+                [
+                    'class' => 'yii\rest\UrlRule', 
+                    /*'patterns' => [
+                        'GET,HEAD ' => 'view',
+                        'POST' => 'create',
+                        'GET,HEAD' => 'index',
+                        'OPTIONS' => 'options',
+                    ],*/
+                    'controller' => [
+                        'rest',
+                    ],
+                    //'pluralize' => false,
+                    /*'extraPatterns' => [
+                       'GET get1' => 'get1',
+                       'POST post1'=>'post1',
+                    ],*/
+                ],
+    
+
             ],
+
         ],
         
     ],
